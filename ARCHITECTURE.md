@@ -68,6 +68,10 @@ The focus is not on financial engineering, but on **clear separation of responsi
 ## Architecture diagram
 
 ```mermaid
+---
+config:
+  layout: elk
+---
 flowchart LR
   subgraph OffChain
     BankCustody["Reserve Account (Bank Custody)"]

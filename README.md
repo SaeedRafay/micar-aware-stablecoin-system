@@ -94,12 +94,6 @@ npx hardhat test
 
 This runs both TypeScript (Mocha/Chai) and Solidity test suites.
 
-### Compilation
-
-```bash
-npx hardhat compile
-```
-
 
 ## Project structure
 
