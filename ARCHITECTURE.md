@@ -72,7 +72,7 @@ The focus is not on financial engineering, but on **clear separation of responsi
 config:
   layout: elk
 ---
-flowchart LR
+flowchart TB
   subgraph OffChain
     BankCustody["Reserve Account (Bank Custody)"]
     Custodian["Custodian / Trustee"]
